@@ -1,0 +1,11 @@
+{
+  "javascript": {
+    "main": "http://localhost:3001/dist/main-ad72b2b5826bd953c523.js"
+  },
+  "styles": {},
+  "assets": {
+    "./ui/components/Sura.less": {
+      "_style": "@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);@import url(https://fonts.googleapis.com/css?family=Raleway);body {\n  font-family: 'Raleway', 'Avenir', 'PT Serif', serif;\n  font-weight: 400;\n  font-size: 16px;\n}\n.arab {\n  font-family: 'Droid Arabic Naskh';\n  font-size: 30px;\n  margin: 20px;\n  text-align: right;\n  line-height: 2;\n}\n.latin {\n  font-size: 18px;\n  line-height: 1.5;\n}\n.qh-navbar {\n  border-bottom: 1px solid rgba(0, 0, 0, 0.06);\n  position: fixed;\n  background: #ffffff;\n  width: 100%;\n  margin: -20px 10px 10px 0px;\n  right: 0;\n  display: block;\n  padding: 15px 0 15px 0;\n  left: 0;\n  top: 20px;\n}\n.qh-navbar > a.qh-nav-right {\n  text-decoration: none;\n  float: right;\n  color: #444;\n}\n.qh-sura {\n  margin-top: 75px;\n}\n"
+    }
+  }
+}

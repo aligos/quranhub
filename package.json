@@ -1,0 +1,30 @@
+{
+  "name": "~name~",
+  "private": true,
+  "scripts": {
+    "dev": "saturn dev",
+    "prestart": "saturn build",
+    "start": "saturn start",
+    "test": "saturn test"
+  },
+  "dependencies": {
+    "apollo-client": "^0.3.24",
+    "apollo-server": "^0.1.1",
+    "babel-runtime": "^6.9.2",
+    "dataloader": "^1.2.0",
+    "graphql": "^0.6.1",
+    "graphql-tag": "^0.1.9",
+    "mongoose": "^4.5.8",
+    "react": "^15.0.2",
+    "react-apollo": "^0.3.4",
+    "react-router": "^2.4.1",
+    "saturn-framework": "^0.2.4"
+  },
+  "saturn": {
+    "app-client": "./ui",
+    "app-server": "./ui",
+    "api-server": "./api",
+    "webpack-dev": "wp/dev.config",
+    "webpack-prod": "wp/prod.config"
+  }
+}
