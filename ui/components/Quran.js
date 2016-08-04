@@ -17,6 +17,7 @@ function surahList(props) {
     <div>
       <section>
         <nav className="qh-navbar">Quran Hub Clone</nav>
+        <div className="qh-sura">
         {props.data.allSura.map(function(sura) {
           return (
             <ul key={sura._id}>
@@ -24,6 +25,7 @@ function surahList(props) {
             </ul>
           )
         })}
+        </div>
       </section>
     </div>
   );
